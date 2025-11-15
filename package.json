@@ -1,23 +1,31 @@
 {
-  "name": "gemini-chatbot",
+  "name": "gemini-chatbot-nextjs",
   "version": "1.0.0",
-  "description": "A chatbot using Gemini AI API",
-  "main": "server.js",
+  "description": "A chatbot using Gemini AI API built with Next.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
-    "build": "echo Build completed successfully - Application is ready for deployment"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": ["chatbot", "gemini", "ai"],
-  "author": "",
+  "keywords": [
+    "chatbot",
+    "gemini",
+    "ai",
+    "nextjs"
+  ],
+  "author": "Sadhvi, Misthi, Suhani",
   "license": "MIT",
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.1"
+    "next": "14.2.18",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "@types/node": "20.17.10",
+    "@types/react": "18.3.17",
+    "@types/react-dom": "18.3.5",
+    "typescript": "5.7.2"
   }
 }

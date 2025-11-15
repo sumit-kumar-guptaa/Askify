@@ -1,8 +1,15 @@
 # Environment variables
 .env
+.env.local
+.env*.local
 
 # Node modules
 node_modules/
+
+# Next.js
+.next/
+out/
+build/
 
 # Logs
 logs
@@ -23,3 +30,6 @@ Thumbs.db
 
 # Vercel
 .vercel
+
+# TypeScript
+*.tsbuildinfo
