@@ -19,8 +19,5 @@
       "src": "/(.*)",
       "dest": "/public/$1"
     }
-  ],
-  "env": {
-    "GEMENAI_API_KEY": "@gemenai_api_key"
-  }
+  ]
 }
